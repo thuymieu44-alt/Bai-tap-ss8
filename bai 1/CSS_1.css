@@ -1,0 +1,24 @@
+.container{
+    display:flex;
+    gap:10px;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 50px;
+}
+.item{
+    background-color: aqua;
+    width: calc(50% - 10px);
+    height:50px;
+    
+
+}
+.item-f1{
+    background-color: aqua;
+    width: calc(100% - 10px);
+    height:50px;
+}
+@media (max-width: 768px) {
+    .item{
+        width: calc( 100% - 10px);
+    }
+}
